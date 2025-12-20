@@ -1,0 +1,14 @@
+fire
+matplotlib
+numpy
+pandas
+plotly
+pytorch-lightning
+scikit-learn
+scipy
+sktime
+streamlit
+torch
+torchmetrics
+tqdm
+wandb
