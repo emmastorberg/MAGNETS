@@ -1,0 +1,11 @@
+[project]
+name = "magnets"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "darts==0.30.0",
+    "fire>=0.7.1",
+    "pandas>=2.3.3",
+]

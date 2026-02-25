@@ -1,0 +1,218 @@
+{
+  "aggs": {
+    "value": [
+      "sum"
+    ]
+  },
+  "seed": {
+    "value": 42
+  },
+  "_wandb": {
+    "value": {
+      "e": {
+        "edtr6zt9g9kq1r9aha6vyafrpq1kun7e": {
+          "os": "Linux-6.14.0-37-generic-x86_64-with-glibc2.39",
+          "git": {
+            "commit": "fe025501e6a196faae163ffdcc6e3caf35154383",
+            "remote": "https://github.com/FlorentF9/MAGNETS.git"
+          },
+          "gpu": "NVIDIA GeForce RTX 4090",
+          "args": [
+            "outputs",
+            "datasets",
+            "5000",
+            "--dataset=VeasExtendedPilotData",
+            "--n_concepts=8"
+          ],
+          "disk": {
+            "/": {
+              "used": "984591601664",
+              "total": "1964601909248"
+            }
+          },
+          "host": "faith-pc",
+          "root": ".",
+          "email": "emma.storberg@icloud.com",
+          "memory": {
+            "total": "67222753280"
+          },
+          "python": "CPython 3.10.18",
+          "program": "/home/emmas/MAGNETS/magnets/train.py",
+          "codePath": "magnets/train.py",
+          "writerId": "edtr6zt9g9kq1r9aha6vyafrpq1kun7e",
+          "cpu_count": 24,
+          "gpu_count": 1,
+          "startedAt": "2026-01-14T13:20:33.128272Z",
+          "executable": "/home/emmas/MAGNETS/.venv/bin/python3",
+          "gpu_nvidia": [
+            {
+              "name": "NVIDIA GeForce RTX 4090",
+              "uuid": "GPU-5be8b0a9-018e-7fc5-fd47-42f7b5e0029d",
+              "cudaCores": 16384,
+              "memoryTotal": "25757220864",
+              "architecture": "Ada"
+            }
+          ],
+          "cudaVersion": "13.0",
+          "codePathLocal": "magnets/train.py",
+          "cpu_count_logical": 32
+        }
+      },
+      "m": [
+        {
+          "1": "trainer/global_step",
+          "6": [
+            3
+          ],
+          "7": []
+        },
+        {
+          "2": "*",
+          "5": 1,
+          "6": [
+            1
+          ],
+          "7": []
+        }
+      ],
+      "t": {
+        "1": [
+          1,
+          5,
+          9,
+          53,
+          103
+        ],
+        "2": [
+          1,
+          5,
+          9,
+          53,
+          103
+        ],
+        "3": [
+          7,
+          13,
+          66
+        ],
+        "4": "3.10.18",
+        "5": "0.23.1",
+        "12": "0.23.1",
+        "13": "linux-x86_64"
+      },
+      "cli_version": "0.23.1",
+      "python_version": "3.10.18"
+    }
+  },
+  "gsat_r": {
+    "value": 0.5
+  },
+  "gt_fun": {
+    "value": "area_over_threshold"
+  },
+  "dataset": {
+    "value": "VeasExtendedPilotData"
+  },
+  "n_masks": {
+    "value": 10
+  },
+  "use_ste": {
+    "value": true
+  },
+  "concepts": {
+    "value": null
+  },
+  "emb_size": {
+    "value": 16
+  },
+  "batch_size": {
+    "value": 256
+  },
+  "c2y_layers": {
+    "value": []
+  },
+  "extra_dims": {
+    "value": 0
+  },
+  "max_epochs": {
+    "value": 5000
+  },
+  "model_type": {
+    "value": "magnets"
+  },
+  "n_concepts": {
+    "value": 8
+  },
+  "n_tasks": {
+    "value": 1
+  },
+  "input_dim": {
+    "value": 12
+  },
+  "input_length": {
+    "value": 48
+  },
+  "latent_dim": {
+    "value": 128
+  },
+  "boolean_cbm": {
+    "value": false
+  },
+  "kernel_size": {
+    "value": 3
+  },
+  "subsampling": {
+    "value": 1
+  },
+  "learning_rate": {
+    "value": 0.0001
+  },
+  "mask_generator": {
+    "value": "unet"
+  },
+  "mask_smoothing": {
+    "value": null
+  },
+  "target_scaling": {
+    "value": 1
+  },
+  "binary_concepts": {
+    "value": false
+  },
+  "gsat_loss_weight": {
+    "value": 0
+  },
+  "task_loss_weight": {
+    "value": 1
+  },
+  "ortho_loss_weight": {
+    "value": 0
+  },
+  "exclusive_concepts": {
+    "value": false
+  },
+  "connect_loss_weight": {
+    "value": 0
+  },
+  "regressive_concepts": {
+    "value": false
+  },
+  "supervised_concepts": {
+    "value": false
+  },
+  "sparsity_loss_weight": {
+    "value": 0
+  },
+  "c2y_sparsity_loss_weight": {
+    "value": 0
+  },
+  "concept_ortho_loss_weight": {
+    "value": 0
+  },
+  "mask_sparsity_loss_weight": {
+    "value": 0
+  },
+  "concept_entropy_loss_weight": {
+    "value": 0
+  }
+}

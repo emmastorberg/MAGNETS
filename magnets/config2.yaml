@@ -1,0 +1,185 @@
+# _wandb:
+#     value:
+#         cli_version: 0.23.1
+#         e:
+#             lumj98y79isques4vy02oy9bmwzis8gm:
+#                 args:
+#                     - outputs
+#                     - datasets
+#                     - "5000"
+#                     - --dataset=VeasExtendedPilotData
+#                     - --n_concepts=8
+#                 codePath: magnets/train.py
+#                 codePathLocal: magnets/train.py
+#                 cpu_count: 24
+#                 cpu_count_logical: 32
+#                 cudaVersion: "13.0"
+#                 disk:
+#                     /:
+#                         total: "1964601909248"
+#                         used: "1045201854464"
+#                 email: emma.storberg@icloud.com
+#                 executable: /home/emmas/MAGNETS/.venv/bin/python3
+#                 git:
+#                     commit: fe025501e6a196faae163ffdcc6e3caf35154383
+#                     remote: https://github.com/FlorentF9/MAGNETS.git
+#                 gpu: NVIDIA GeForce RTX 4090
+#                 gpu_count: 1
+#                 gpu_nvidia:
+#                     - architecture: Ada
+#                       cudaCores: 16384
+#                       memoryTotal: "25757220864"
+#                       name: NVIDIA GeForce RTX 4090
+#                       uuid: GPU-5be8b0a9-018e-7fc5-fd47-42f7b5e0029d
+#                 host: faith-pc
+#                 memory:
+#                     total: "67222753280"
+#                 os: Linux-6.14.0-37-generic-x86_64-with-glibc2.39
+#                 program: /home/emmas/MAGNETS/magnets/train.py
+#                 python: CPython 3.10.18
+#                 root: .
+#                 startedAt: "2026-02-04T10:25:01.158070Z"
+#                 writerId: lumj98y79isques4vy02oy9bmwzis8gm
+#         m:
+#             - "1": trainer/global_step
+#               "6":
+#                 - 3
+#               "7": []
+#             - "2": '*'
+#               "5": 1
+#               "6":
+#                 - 1
+#               "7": []
+#         python_version: 3.10.18
+#         t:
+#             "1":
+#                 - 1
+#                 - 5
+#                 - 9
+#                 - 53
+#                 - 103
+#             "2":
+#                 - 1
+#                 - 5
+#                 - 9
+#                 - 53
+#                 - 103
+#             "3":
+#                 - 7
+#                 - 13
+#                 - 66
+#             "4": 3.10.18
+#             "5": 0.23.1
+#             "12": 0.23.1
+#             "13": linux-x86_64
+# aggs:
+#     value:
+#         - sum
+# batch_size:
+#     value: 256
+# binary_concepts:
+#     value: false
+# boolean_cbm:
+#     value: false
+# c2y_layers:
+#     value: []
+# c2y_sparsity_loss_weight:
+#     value: 0
+# concept_entropy_loss_weight:
+#     value: 0
+# concept_ortho_loss_weight:
+#     value: 0
+# concepts:
+#     value: null
+# connect_loss_weight:
+#     value: 0
+# dataset:
+#     value: VeasExtendedPilotData
+# emb_size:
+#     value: 16
+# exclusive_concepts:
+#     value: false
+# extra_dims:
+#     value: 0
+# gsat_loss_weight:
+#     value: 0
+# gsat_r:
+#     value: 0.5
+# gt_fun:
+#     value: area_over_threshold
+# kernel_size:
+#     value: 3
+# learning_rate:
+#     value: 0.0001
+# mask_generator:
+#     value: unet
+# mask_smoothing:
+#     value: null
+# mask_sparsity_loss_weight:
+#     value: 0
+# max_epochs:
+#     value: 5000
+# model_type:
+#     value: magnets
+# n_concepts:
+#     value: 8
+# n_masks:
+#     value: 10
+# ortho_loss_weight:
+#     value: 0
+# regressive_concepts:
+#     value: false
+# seed:
+#     value: 42
+# sparsity_loss_weight:
+#     value: 0
+# subsampling:
+#     value: 1
+# supervised_concepts:
+#     value: false
+# target_scaling:
+#     value: 1
+# task_loss_weight:
+#     value: 1
+# use_ste:
+#     value: true
+aggs:
+  - sum
+n_tasks: 1
+input_dim: 12
+input_length: 48
+latent_dim: 128
+batch_size: 256
+binary_concepts: false
+boolean_cbm: false
+c2y_layers: []
+c2y_sparsity_loss_weight: 0
+concept_entropy_loss_weight: 0
+concept_ortho_loss_weight: 0
+concepts: null
+connect_loss_weight: 0
+dataset: VeasExtendedPilotData2
+emb_size: 16
+exclusive_concepts: false
+extra_dims: 0
+gsat_loss_weight: 0
+gsat_r: 0.5
+gt_fun: area_over_threshold
+kernel_size: 3
+learning_rate: 0.0001
+mask_generator: unet
+mask_smoothing: null
+mask_sparsity_loss_weight: 0
+max_epochs: 5000
+model_type: magnets
+n_concepts: 8
+n_masks: 10
+ortho_loss_weight: 0
+regressive_concepts: false
+seed: 42
+sparsity_loss_weight: 0
+subsampling: 1
+supervised_concepts: false
+target_scaling: 1
+task_loss_weight: 1
+use_ste: true

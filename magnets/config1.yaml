@@ -1,0 +1,26 @@
+aggs:
+  - sum
+n_concepts: 8
+n_tasks: 1
+input_dim: 12
+input_length: 48
+latent_dim: 128
+use_ste: true
+n_masks: 10
+mask_generator: unet
+mask_smoothing: null
+learning_rate: 0.0001
+task_loss_weight: 1
+sparsity_loss_weight: 0
+gsat_loss_weight: 0
+gsat_r: 0.5
+connect_loss_weight: 0
+ortho_loss_weight: 0
+concept_ortho_loss_weight: 0
+mask_sparsity_loss_weight: 0
+concept_entropy_loss_weight: 0
+c2y_sparsity_loss_weight: 0
+target_scaling: 1
+concepts: null
+regressive_concepts: false
+c2y_layers: []

@@ -93,6 +93,9 @@ class ConceptDiscoveryModel(pl.LightningModule):
         self.latent_dim = 128
         self.mask_generator = mask_generator
 
+        # edit by Emma to compute number of features:
+        self.n_features = input_dim * self.n_masks * self.n_agg
+
         self.tau = 1.0
         self.use_ste = use_ste
 
